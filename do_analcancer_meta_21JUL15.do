@@ -16,7 +16,7 @@ xtitle("Incidence (per 100,000 person-years)", size(small))
 xsize(17.23)
 ysize (12.5)
 ;
-graph save testsize
+graph save testsize, replace
 ;
-graph export "N:\Eking\Prevalence_study_data\Graphs\anal_meta.tif", replace width(1500)
+graph export "N:\Eking\Prevalence_study_data\Do_files\THESIS_METAANALYSES\analmeta.png", replace width(1500)
 ;
